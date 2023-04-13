@@ -14,10 +14,39 @@ app.get('/', (req, res) => {
             res.send(err);
             return;
         }
-        
+
         data = JSON.parse(data);
 
         res.render('index', { voltage: data.voltage });
+    });
+});
+
+app.post('/', bodyParser.json(), (req, res) => {
+    console.log(req.body['voltage']);
+
+    fs.readFile('views/data.json', 'utf8', (err, data) => {
+        if (err) {
+            res.send(err);
+            return;
+        }
+
+        data = JSON.parse(data);
+        
+
+        const payload = JSON.stringify({
+            voltage: req.body['voltage'] ? req.body['voltage'] : data.voltage,
+            turn: req.body['turn'] !== null  ? req.body['turn'] : data.turn,
+        });
+        
+
+        fs.writeFile('views/data.json', payload, (err) => {
+            if (err) {
+                res.send(err);
+                return;
+            }
+        });
+
+        res.send(data.turn);
     });
 });
 
