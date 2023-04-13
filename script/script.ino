@@ -1,4 +1,6 @@
 #include <ESP8266WiFi.h>
+#include <ESP8266HTTPClient.h>
+#include <WiFiClient.h>
 
 #ifndef STASSID
 #define STASSID "JojoNet"
@@ -8,8 +10,7 @@
 const char* ssid = STASSID;
 const char* password = STAPSK;
 
-const char* host = "djxmmx.net";
-const uint16_t port = 17;
+String serverPath = "http://192.168.1.111:3000";
 
 const int adc = A0;
 double adcValue = 0;
@@ -43,24 +44,33 @@ void loop() {
   Serial.print(adcValue);
   Serial.println("V");
 
+
+  WiFiClient client;
+  HTTPClient http;
+
   static bool wait = false;
 
-  Serial.print("connecting to ");
-  Serial.print(host);
-  Serial.print(':');
-  Serial.println(port);
+  http.begin(client, serverPath.c_str());
 
-  // Use WiFiClient class to create TCP connections
-  WiFiClient client;
-  if (!client.connect(host, port)) {
-    Serial.println("connection failed");
-    delay(5000);
-    return;
+  http.addHeader("Content-Type", "application/json");
+
+  String payload = "{\"voltage\":\"" + String(adcValue) + "\"}";
+
+  Serial.println(payload);
+
+  int httpResponseCode = http.POST(payload);
+
+  if (httpResponseCode>0) {
+    Serial.print("HTTP Response code: ");
+    Serial.println(httpResponseCode);
+    String payload = http.getString();
+    Serial.println(payload);
+  } else {
+    Serial.print("Error code: ");
+    Serial.println(httpResponseCode);
   }
-
-  // This will send a string to the server
-  Serial.println("sending data to server");
-  if (client.connected()) { client.println("hello from ESP8266"); }
+  // Free resources
+  http.end();
 
   // wait for data to be available
   unsigned long timeout = millis();

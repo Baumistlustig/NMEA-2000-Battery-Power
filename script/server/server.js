@@ -9,6 +9,8 @@ app.use(cors());
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
+    console.log('GET /', req.body, req.query, req.params, req.headers);
+
     fs.readFile('views/data.json', 'utf8', (err, data) => {
         if (err) {
             res.send(err);
@@ -22,8 +24,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', bodyParser.json(), (req, res) => {
-    console.log(req.body['voltage']);
-
+    console.log('POST /', req.body, req.query, req.params, req.headers);
     fs.readFile('views/data.json', 'utf8', (err, data) => {
         if (err) {
             res.send(err);
