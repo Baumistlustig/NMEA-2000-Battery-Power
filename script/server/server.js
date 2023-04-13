@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
         data = JSON.parse(data);
 
-        res.render('index', { voltage: data.voltage });
+        res.render('index', { voltage: ( data.voltage / 20.075888237 ) });
     });
 });
 

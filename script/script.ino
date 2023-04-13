@@ -13,7 +13,7 @@ const char* password = STAPSK;
 String serverPath = "http://192.168.1.111:3000";
 
 const int adc = A0;
-double adcValue = 0;
+int adcValue = 0;
 
 void setup() {
   Serial.begin(115200);
@@ -38,12 +38,11 @@ void setup() {
 
 void loop() {
 
-  adcValue = analogRead(adc);// * 5 / 1024;
+  adcValue = analogRead(adc);
 
   Serial.print("ADC Value: ");
   Serial.print(adcValue);
   Serial.println("V");
-
 
   WiFiClient client;
   HTTPClient http;
