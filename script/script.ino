@@ -16,6 +16,11 @@ const int adc = A0;
 int adcValue = 0;
 
 void setup() {
+  // Set D1 as Output pin
+  pinMode(5, OUTPUT);
+
+  digitalWrite(5, HIGH)
+
   Serial.begin(115200);
 
   Serial.print("Connecting to ");
@@ -43,6 +48,10 @@ void loop() {
   Serial.print("ADC Value: ");
   Serial.print(adcValue);
   Serial.println("V");
+
+  if (adcValue * (1000 / (1000 + 15000 + 20000)) < 2.7) {
+    digitalWrite(5, LOW)
+  }
 
   WiFiClient client;
   HTTPClient http;
