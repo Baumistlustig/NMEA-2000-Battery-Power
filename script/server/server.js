@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
         data = JSON.parse(data);
 
-        res.render('index', { voltage: ( data.voltage / 20.075888237 ) });
+        res.render('index', { voltage: ( data.voltage / 23.833333333 ) });
     });
 });
 
@@ -36,7 +36,6 @@ app.post('/', bodyParser.json(), (req, res) => {
 
         const payload = JSON.stringify({
             voltage: req.body['voltage'] ? req.body['voltage'] : data.voltage,
-            turn: req.body['turn'] !== null  ? req.body['turn'] : data.turn,
         });
         
 
