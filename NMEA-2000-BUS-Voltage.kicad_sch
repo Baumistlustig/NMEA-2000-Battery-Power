@@ -745,7 +745,16 @@
     (uuid 911b96dc-c4de-495d-84cc-5a02eb7737ae)
   )
 
+<<<<<<< HEAD
   (no_connect (at 39.116 34.417) (uuid f57d8a7a-f2e1-45d8-82f7-f7c2d3112687))
+=======
+  (no_connect (at 46.736 59.817) (uuid 4833d7b4-36b8-4a3e-8a24-3b20cac3f491))
+  (no_connect (at 46.736 64.897) (uuid 4f407345-382b-462e-8ea0-222dd2b8f81e))
+  (no_connect (at 26.416 44.577) (uuid c4c51519-06a9-4f05-877d-51f751cc6327))
+  (no_connect (at 46.736 49.657) (uuid d183dbdd-6218-4b33-ba17-9622d6f4c85d))
+  (no_connect (at 46.736 62.357) (uuid d62f0ac7-025c-4785-99be-b9e7ea3e6893))
+  (no_connect (at 46.736 57.277) (uuid deef0262-2b98-4d92-b3d5-ae0eb7f1edb1))
+>>>>>>> d15e287b7f9d154fe3b57952ab32fce74056a37e
 
   (wire (pts (xy 181.102 38.735) (xy 181.102 40.005))
     (stroke (width 0) (type default))
@@ -902,6 +911,10 @@
   (wire (pts (xy 192.786 38.735) (xy 192.786 36.195))
     (stroke (width 0) (type default))
     (uuid e3fe46b8-5727-4efb-a579-af098d0c4133)
+  )
+  (wire (pts (xy 39.116 31.877) (xy 39.116 34.417))
+    (stroke (width 0) (type default))
+    (uuid e60260ed-db01-42bf-820e-344d9252fee8)
   )
   (wire (pts (xy 101.092 39.878) (xy 98.679 39.878))
     (stroke (width 0) (type default))
@@ -1368,6 +1381,31 @@
       (project "NMEA-2000-BUS-Voltage"
         (path "/f79966b4-4927-4ec7-886d-17305cb22602"
           (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 39.116 31.877 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6f379772-ea81-47b8-90ab-7c73978ed09d)
+    (property "Reference" "#PWR011" (at 39.116 35.687 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 39.116 28.321 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 39.116 31.877 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 39.116 31.877 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a74a5f54-7e9f-48a7-91af-577840324d37))
+    (instances
+      (project "NMEA-2000-BUS-Voltage"
+        (path "/f79966b4-4927-4ec7-886d-17305cb22602"
+          (reference "#PWR011") (unit 1)
         )
       )
     )
