@@ -409,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "battery-percentage.kicad_pro",
+    "filename": "NMEA-2000-BUS-Voltage.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -494,7 +494,7 @@
   },
   "sheets": [
     [
-      "f79966b4-4927-4ec7-886d-17305cb22602",
+      "2ad9a196-bb2f-4407-b356-e110a1476183",
       ""
     ]
   ],
