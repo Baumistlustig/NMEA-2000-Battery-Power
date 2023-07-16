@@ -1,4 +1,4 @@
-# NMEA 2000 BUS Voltage
+# NMEA 2000 Battery Power
 
 This is a project, which reads the voltage and current of a battery, and posts it to a NMEA 2000 BUS.
 
