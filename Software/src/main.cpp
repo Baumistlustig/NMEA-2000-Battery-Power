@@ -15,6 +15,9 @@ onst unsigned long TransmitMessages[] PROGMEM = {
   0
 };
 
+// Define all Function Codes
+void CheckSourceAddressChange();
+
 void setup() {
   
   uint8_t chipid[6];
@@ -66,4 +69,16 @@ void setup() {
 }
 
 void loop() {
+}
+
+void CheckSourceAddressChange() {
+  int SourceAddress = NMEA2000.GetN2kSource();
+
+  if (SourceAddress != NodeAddress) { // Save potentially changed Source Address to NVS memory
+    NodeAddress = SourceAddress;      // Set new Node Address (to save only once)
+    preferences.begin("nvs", false);
+    preferences.putInt("LastNodeAddress", SourceAddress);
+    preferences.end();
+    Serial.printf("Address Change: New Address=%d\n", SourceAddress);
+  }
 }
