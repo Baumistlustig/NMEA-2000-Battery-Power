@@ -12,7 +12,7 @@ A list of all the electrical components I used for the project:
 
 - ESP32 NodeMCU [AZ-Delivery](https://www.az-delivery.de/collections/esp32/products/esp32-developmentboard)
 - CAN-Transeiver (SN65HVD230) [Eckstein](https://eckstein-shop.de/Waveshare-SN65HVD230-CAN-Transceiver-Board-33V-ESD-Protection)
-- ACS712 30A (AZ-Delivery](https://www.az-delivery.de/en/products/acs712-stromsensor-mit-30a)
+- ACS712 30A [AZ-Delivery](https://www.az-delivery.de/en/products/acs712-stromsensor-mit-30a)
 - BMP280 [AZ-Delivery](https://www.az-delivery.de/products/azdelivery-bmp280-barometrischer-sensor-luftdruck-modul-fur-arduino-und-raspberry-pi)
 - LM7805 [Mouser](https://www.mouser.at/ProductDetail/Texas-Instruments/LM7805CT?qs=QbsRYf82W3EaqXeMDVwIfQ%3D%3D)
 - Some Ceramic Capacitor [AZ-Delivery](https://www.az-delivery.de/products/1000xkeramik-kondensatoren)
