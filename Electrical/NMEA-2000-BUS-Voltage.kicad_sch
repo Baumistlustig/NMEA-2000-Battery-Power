@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Bus Power")
-		(date "2024-05-19")
-		(rev "1")
+		(date "2024-05-24")
+		(rev "2")
 		(company "Johannes Höllwerth")
 	)
 	(lib_symbols
