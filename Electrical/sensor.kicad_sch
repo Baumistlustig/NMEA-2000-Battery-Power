@@ -4935,6 +4935,14 @@
 		(color 0 0 0 0)
 		(uuid "f45cc1b1-915b-4a42-a2b4-658923067e5c")
 	)
+	(no_connect
+		(at 223.52 99.06)
+		(uuid "4f5ca599-8ef3-4761-8e64-9b6baffc4f13")
+	)
+	(no_connect
+		(at 223.52 33.02)
+		(uuid "e2a3f134-8ac8-49b2-8587-cf31168d6a00")
+	)
 	(wire
 		(pts
 			(xy 30.48 27.94) (xy 30.48 30.48)
@@ -5917,6 +5925,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 99.06) (xy 223.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e74152-1072-4eeb-a20c-dd66ddfd20b2")
+	)
+	(wire
+		(pts
 			(xy 60.96 43.18) (xy 58.42 43.18)
 		)
 		(stroke
@@ -6064,6 +6082,16 @@
 			(type default)
 		)
 		(uuid "84eafd84-2afa-49fc-9073-82e1c1135fc7")
+	)
+	(wire
+		(pts
+			(xy 223.52 33.02) (xy 223.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f0beca-0794-4fe8-b603-8f95793e9381")
 	)
 	(wire
 		(pts
@@ -7779,7 +7807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "002e3739-dfc7-41e7-82d9-552dc03e50e8")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 62.23 157.48 90)
 			(effects
 				(font
@@ -7831,7 +7859,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7847,7 +7875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00cfd584-21de-4c98-829a-a1e025e93717")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 30.48 62.23 0)
 			(effects
 				(font
@@ -7897,7 +7925,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7913,7 +7941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "025dd624-c5ab-4705-b343-d47706aac91d")
-		(property "Reference" "JP6"
+		(property "Reference" "JP4"
 			(at 233.172 30.226 0)
 			(effects
 				(font
@@ -7971,7 +7999,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "JP6")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -8056,7 +8084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "128dc0ad-4c09-430d-9e47-f7727dcf1689")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 51.562 64.516 90)
 			(effects
 				(font
@@ -8110,7 +8138,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8126,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1316677e-1f51-4f3f-a564-a624e0047e30")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 218.44 121.92 90)
 			(effects
 				(font
@@ -8178,7 +8206,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8193,7 +8221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "159c8751-444f-47d9-9428-903f6151c2d1")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 62.23 121.92 90)
 			(effects
 				(font
@@ -8245,7 +8273,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8331,7 +8359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ac0d783-88b9-4168-a459-725a5b5f81d0")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 210.82 119.38 0)
 			(effects
 				(font
@@ -8381,7 +8409,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2597a26a-9409-48d7-8573-abc161e3df34")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 58.42 176.5299 0)
 			(effects
 				(font
@@ -8601,7 +8629,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8616,7 +8644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "263835a7-40f1-4e2b-8b99-d91e6575ec9c")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 240.03 27.94 0)
 			(effects
 				(font
@@ -8666,7 +8694,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8751,7 +8779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f7cb147-e188-49a5-bb8f-8cd5c54a2041")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 217.932 66.802 90)
 			(effects
 				(font
@@ -8803,7 +8831,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8818,7 +8846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b6eec60-76aa-447b-9d64-ce3232f0631c")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 217.932 132.842 90)
 			(effects
 				(font
@@ -8870,7 +8898,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8956,7 +8984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46132831-e8c5-4431-8317-ce8b105f0c98")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 218.44 55.88 90)
 			(effects
 				(font
@@ -9008,7 +9036,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9095,7 +9123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cb08efd-b6a8-4680-84fc-bd9b9be6ccb7")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -9145,7 +9173,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9162,7 +9190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d349b22-b221-4a5c-a5c7-03671162d8e0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 127 107.95 0)
 			(effects
 				(font
@@ -9212,7 +9240,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9308,7 +9336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531cf21b-8d69-4865-8d82-4919b1bb4145")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 218.44 102.87 0)
 			(effects
 				(font
@@ -9358,7 +9386,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9374,7 +9402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5558efb5-adb1-408a-b78f-b43a390828a6")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 124.46 34.29 0)
 			(effects
 				(font
@@ -9424,7 +9452,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9440,7 +9468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "599677f1-3745-4e11-b6aa-09e3a2c93d34")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -9494,7 +9522,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9511,7 +9539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6162ca9c-7736-45b7-84ec-aed7a2a47aff")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 231.14 143.51 0)
 			(effects
 				(font
@@ -9561,7 +9589,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9578,7 +9606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683f17f7-680e-4f87-b4d9-00d9876f24c4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 142.24 161.29 0)
 			(effects
 				(font
@@ -9628,7 +9656,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9644,7 +9672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b5570f4-60f7-45fd-ab44-f8485913cac8")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 53.34 45.7199 0)
 			(effects
 				(font
@@ -9698,7 +9726,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9793,7 +9821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6be0cbbb-b0c6-408b-a51b-81b81f8aa6bf")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 50.8 113.03 0)
 			(effects
 				(font
@@ -9843,7 +9871,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9858,7 +9886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d3a1061-445c-472e-b7ce-dcead2048f5f")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 62.23 132.08 90)
 			(effects
 				(font
@@ -9910,7 +9938,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10066,7 +10094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a17ee95-a6df-448a-a538-01edc26988a8")
-		(property "Reference" "JP5"
+		(property "Reference" "JP3"
 			(at 149.098 128.524 0)
 			(effects
 				(font
@@ -10124,7 +10152,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "JP5")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10210,7 +10238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d368c0b-0429-4a1e-9a5c-7907eb8df666")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 27.94 45.7199 0)
 			(effects
 				(font
@@ -10264,7 +10292,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10280,7 +10308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d3eaf1b-5bb9-479d-b7de-10cf87ede475")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 218.44 36.83 0)
 			(effects
 				(font
@@ -10330,7 +10358,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10445,7 +10473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80948ab1-86a2-494e-84e4-dd127a0b3d02")
-		(property "Reference" "JP7"
+		(property "Reference" "JP5"
 			(at 233.172 96.266 0)
 			(effects
 				(font
@@ -10503,7 +10531,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "JP7")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -10520,7 +10548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "823bc8d7-70db-46a3-aef9-0b045c05a1a9")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 68.58 156.21 0)
 			(effects
 				(font
@@ -10570,7 +10598,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10586,7 +10614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f4c591-46b3-495c-a6cc-336cbdf15ecb")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 58.42 140.9699 0)
 			(effects
 				(font
@@ -10640,7 +10668,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10727,7 +10755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91819a7b-68a8-4dc2-a93a-f4e4c3072531")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 231.14 77.47 0)
 			(effects
 				(font
@@ -10777,7 +10805,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10865,7 +10893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a7edec8-5a93-4920-a2fb-c3e86bce0d3e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 58.42 69.85 0)
 			(effects
 				(font
@@ -10915,7 +10943,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11212,7 +11240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e10ac4d-b850-427b-8d1a-c40765f36f6c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 139.7 97.79 0)
 			(effects
 				(font
@@ -11262,7 +11290,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11427,7 +11455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9ba37e5-8f49-4c92-86b7-e30445e98770")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 62.23 167.64 90)
 			(effects
 				(font
@@ -11479,7 +11507,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11496,7 +11524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe97149-4cd2-46ef-a35b-bc07e95fc9b2")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 68.58 191.77 0)
 			(effects
 				(font
@@ -11546,7 +11574,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11632,7 +11660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b38c5425-cf4f-4516-9e0d-a87d6313c2af")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -11686,7 +11714,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11870,7 +11898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcab23f1-12bb-41df-9e29-9ee8994ae40f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -11920,7 +11948,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11936,7 +11964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cecef2ee-d2d0-47c1-88da-c7f40042ab27")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 151.13 129.54 0)
 			(effects
 				(font
@@ -11986,7 +12014,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -12072,7 +12100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d531ae92-b7e0-498f-90c2-08fa8b57c995")
-		(property "Reference" "JP8"
+		(property "Reference" "JP6"
 			(at 246.38 59.6899 90)
 			(effects
 				(font
@@ -12126,7 +12154,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "JP8")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -12213,7 +12241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8bb137e-a84b-401f-a471-82918fcdb188")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -12263,7 +12291,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -12359,7 +12387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da4fc297-1cb4-4b9a-9328-975d4b869be0")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 55.372 90.17 90)
 			(effects
 				(font
@@ -12413,7 +12441,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12586,7 +12614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb3ae7bc-0e5f-4a4e-989e-7025c4e0a2ff")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -12636,7 +12664,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12720,7 +12748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef94637e-8ec5-4d30-ac9f-daa88d5ebef6")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 210.82 53.34 0)
 			(effects
 				(font
@@ -12770,7 +12798,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12925,7 +12953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd194caf-7e81-4ae9-ab64-897b6cc672e9")
-		(property "Reference" "JP9"
+		(property "Reference" "JP7"
 			(at 246.38 125.7299 90)
 			(effects
 				(font
@@ -12979,7 +13007,7 @@
 		(instances
 			(project ""
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "JP9")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -12996,7 +13024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffd62b8d-d747-4125-ab61-29a7588861eb")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 50.8 87.63 0)
 			(effects
 				(font
@@ -13046,7 +13074,7 @@
 		(instances
 			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
