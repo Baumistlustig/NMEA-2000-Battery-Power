@@ -5,9 +5,11 @@
 	(uuid "26d57f30-5fd9-4e35-9bf2-509fa4a52be9")
 	(paper "A4")
 	(title_block
-		(title "Bus Power")
-		(date "2024-06-12")
-		(rev "2")
+		(title "N2k Bus Power")
+		(date "2024-07-06")
+		(rev "3")
+		(company "Johannes Höllwerth")
+		(comment 2 "Sensors and Relays")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -9801,7 +9803,7 @@
 			(uuid "012e5921-3d5a-4687-862b-1d4a844edfb6")
 		)
 		(instances
-			(project ""
+			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
 					(reference "J11")
 					(unit 1)
@@ -12222,7 +12224,7 @@
 			(uuid "c2f3b35d-2e73-4e36-8e60-4f2c5387aa60")
 		)
 		(instances
-			(project ""
+			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
 					(reference "J10")
 					(unit 1)
@@ -13005,7 +13007,7 @@
 			(uuid "1563c77a-925f-4be2-bddc-2355767dccd1")
 		)
 		(instances
-			(project ""
+			(project "NMEA-2000-BUS-Voltage"
 				(path "/2ad9a196-bb2f-4407-b356-e110a1476183/f2085319-9271-4df7-bfa7-865ab61d6adc"
 					(reference "JP7")
 					(unit 1)

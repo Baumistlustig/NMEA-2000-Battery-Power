@@ -5,10 +5,11 @@
 	(uuid "2ad9a196-bb2f-4407-b356-e110a1476183")
 	(paper "A4")
 	(title_block
-		(title "Bus Power")
-		(date "2024-06-12")
-		(rev "2")
+		(title "N2k Bus Power")
+		(date "2024-07-06")
+		(rev "3")
 		(company "Johannes Höllwerth")
+		(comment 1 "Main Systems")
 	)
 	(lib_symbols
 		(symbol "+12V_1"
@@ -18524,7 +18525,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sensor.kicad_sch"
+		(property "Sheetfile" "NMEA-2000-Bus-Voltage-sensor.kicad_sch"
 			(at 160.02 160.6046 0)
 			(effects
 				(font
